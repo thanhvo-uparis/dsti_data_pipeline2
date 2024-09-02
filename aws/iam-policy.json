@@ -1,0 +1,23 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "EMRServerlessActions",
+      "Effect": "Allow",
+      "Action": [
+        "emr-serverless:CreateApplication",
+        "emr-serverless:UpdateApplication",
+        "emr-serverless:DeleteApplication",
+        "emr-serverless:ListApplications",
+        "emr-serverless:GetApplication",
+        "emr-serverless:StartApplication",
+        "emr-serverless:StopApplication",
+        "emr-serverless:StartJobRun",
+        "emr-serverless:CancelJobRun",
+        "emr-serverless:ListJobRuns",
+        "emr-serverless:GetJobRun"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
